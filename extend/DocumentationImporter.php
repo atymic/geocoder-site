@@ -52,7 +52,7 @@ class DocumentationImporter
             'Geocoder'
         );
 
-        $jigsaw->writeSourceFile('docs/getting-started.md', $content);
+        $jigsaw->writeSourceFile('docs/index.md', $content);
     }
 
     public function updateProvidersDocumentation(Jigsaw $jigsaw)
